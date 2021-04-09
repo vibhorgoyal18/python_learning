@@ -16,11 +16,11 @@ import xlrd
 #     }
 # ]
 
-workbook = xlrd.open_workbook('student_report_card.xlsx')
+workbook = xlrd.open_workbook('/Users/vibhorgoyal/Personal Workspace/Python/practice/student_resport_card.xls')
 sheet = workbook.sheet_by_index(0)
 
 student_report_cards = []
-for row_number in sheet.nrows:
+for row_number in range(0, sheet.nrows):
     if row_number == 0:
         continue
 
