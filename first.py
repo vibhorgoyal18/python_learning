@@ -57,4 +57,49 @@
 #
 # print(even_squared_list)
 
+list1 = [1, 2, 3, 4, 5]
+
+# def get_square(num):
+#     return num ** 2
+
+# get_square = lambda num: num **2
+
+# squared_list = [get_square(num) for num in list1]
+
+# print(squared_list)
+
+# a = 1
+# b = 2
+
+# temp = a
+# a = b
+# b = temp
+
+# print (a,b)
+
+# a = a + b
+# b = a - b
+# a = a - b
+
+# a, b = b, a
+
+# print (a,b)
+
+string = 'Vibhor'
+
+counter = 0
+# for s in string:
+#     if counter > 2:
+#         print(s, end='')
+
+#     counter += 1
+
+# sub_string = string[3:6]
+# print(sub_string)
+# reverse_string = ''
+# for s in string:
+#     reverse_string = s + reverse_string
+
+print(string[])
+    
 
